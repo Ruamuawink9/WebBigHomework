@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body,html{
+	height: 100%;
+	border: 1px solid red;
+	background-color: #ECECEC;
+}
+#container{
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+}
+.head{
+	width: 100%;
+	height: 100px;
+}
+.head1{
+	width: 80%;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 10px;
+	/* border: 1px solid red; */
+	border-bottom: 3px solid #C0CDCA;
+	border-top: 2px solid #DBDBDD;
+}
+.head2{
+	width: 30%;
+	height: 100px;
+	float: left;
+	position: relative;
+	/* border: 1px solid red; */
+}
+.head2 img{
+	width: 75px;
+	margin-top: 2px;	
+	/* border: 1px solid black; */
+}
+.head2 p{
+	position: absolute;
+	left: 75px;
+	top: 25px;
+}
+.search_box{
+	width: 40%;
+	height: 100px;
+	/* border: 1px solid black; */
+	float: left;
+}
+.search{
+	width: 50%;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 35px;
+	background-color: white;
+	border: 1px solid  white;
+	border-radius: 10px;
+	position: relative;
+}
+.search input{
+	height: 28px;
+	width: 80%;
+	float: left;
+	border: 0;
+	outline: none;
+	border-radius: 10px;
+}
+.search img{
+	/* float: right; */
+	/* border: 1px solid black; */
+	width: 25px;
+	position: absolute;
+	right: 5px;
+}
+.head4{
+	width: 29.6%;
+	height: 100px;
+	position: relative;
+	/* border: 1px solid blue; */
+	float: right;
+}
+.login{
+	float: right;
+	/* width: 40%; */
+	width: 120px;
+	height: 30px;
+	display: flex;	
+	/* border: 1px solid blue; */
+	background-color:#B1C1C5;
+}
+.login button{
+	width: 65px;
+	border: 0;
+	background-color:#C0CDCA ;
+}
+.login button a{
+	color: white;
+	cursor: pointer;
+}
+.cash{
+	position: absolute;
+	right: 0;
+	top: 50px;
+	/* width: 26%; */
+	width: 70px;
+	height: 1.875rem;
+	border: 2px solid  #DBDBDD;
+	/* border: 1px solid red; */
+}
+.cash button{
+	width: 100%;
+	height: 33px;
+	border: 0;
+	cursor: pointer;
+	/* border: 1px solid blue; */
+}
+.cash button a{
+	font-size: 12px;	
+}
+.cash button img{
+	width: 1.25rem;
+	margin-top: 8px;
+}
+/* 导航条开始 */
+.nav{
+	width: 100%;
+	height: 35px;
+	margin-top: 9px;
+	background-color:#B1C1C5 ;
+	/* border: 1px solid blue; */
+}
+.nav ul {
+	width: 80%;
+	margin: 0 auto;
+	height: 35px;
+	/* border: 1px solid red; */
+	/* background-color:#B1C1C5 ; */
+}
+.nav ul li{
+	width: 97px;
+	height: 35px;
+	line-height: 30px;
+	text-align: center;
+	/* border: 1px solid red; */
+	float: left;
+}
+.nav ul li a{
+	font-size: 14px;
+	color: white;
+}
+.nav ul li:hover{
+	background-color: plum;
+}
+@media (max-width:600px) {
+	.nav ul{
+		width: 100%;
+	}
+}
+
+.foot{
+	height: 90px;
+	width: 100%;
+	color: white;
+	background-color: #B1C1C5;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	/* border: 1px solid red; */
+}
+.foot p{
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+/* 花卉百科开始 */
+#flowercent{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+	/* border: 1px solid red; */
+}
+.flowersJie{
+	height: 260px;
+	border: 1px solid red;
+}
+.flowersBox1{
+	height: 40px;
+	background-color:#B1C1C5 ;
+	border: 1px solid red;
+}
+.flowersBox1 p{
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 40px;
+}
+.flowersBox2{
+	height: 210px;
+	margin-top: 10px;
+	border: 1px solid blue;
+}
+.flowersLeft{
+	width: 60%;
+	border: 1px solid blue;
+}
